@@ -1,0 +1,35 @@
+# Ignore dataset images and folders
+malaria/cell_images/
+malaria/training/
+malaria/validation/
+malaria/testing/
+
+# Ignore Python cache and artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+.env/
+ENV/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore model checkpoints and logs
+*.h5
+*.hdf5
+*.ckpt
+*.pb
+*.log
+
+# Ignore plots and generated images
+plot.png
+*.png
+!inspired works.png 
